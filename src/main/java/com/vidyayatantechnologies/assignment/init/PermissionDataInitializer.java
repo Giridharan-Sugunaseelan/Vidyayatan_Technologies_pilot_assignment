@@ -4,9 +4,11 @@ import com.vidyayatantechnologies.assignment.entities.Permission;
 import com.vidyayatantechnologies.assignment.repository.PermissionRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
+@Order(1)
 @AllArgsConstructor
 public class PermissionDataInitializer implements CommandLineRunner {
 

@@ -10,12 +10,14 @@ import com.vidyayatantechnologies.assignment.repository.RoleRepository;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
 
 @Component
+@Order(3)
 @AllArgsConstructor
 public class RoleDataInitializer implements CommandLineRunner {
 

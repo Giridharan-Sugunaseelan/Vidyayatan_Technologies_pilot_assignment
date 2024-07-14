@@ -4,9 +4,11 @@ import com.vidyayatantechnologies.assignment.entities.Book;
 import com.vidyayatantechnologies.assignment.repository.BookRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
+@Order(2)
 @AllArgsConstructor
 public class BookDataInitializer implements CommandLineRunner {
 

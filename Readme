@@ -1,0 +1,56 @@
+# Giridharan Sugunaseelan - Implementation of Role and Permission Based Authorization
+
+## Introduction
+
+I applied for the Java Backend Developer position at Vidyayatan Technologies and successfully completed the assigned task. This project implements role and permission-based authorization in a library management system.
+
+## Project Summary
+
+### Roles and Permissions
+
+The system defines three roles:
+- Member
+- Librarian
+- Admin
+
+Permissions include:
+- AllowRead
+- AllowWrite
+- AllowUpdate
+- AllowDelete
+- AllowBorrow
+- AllowReturn
+
+Two types of permission logic are used:
+- **LogicEnum.ANY**: Allows access if any one of the specified permissions is present in the user's assigned role.
+- **LogicEnum.ALL**: Requires all specified permissions to be present for access.
+
+### APIs in the Book Controller
+
+- **Accessible to Everyone**:
+  - Borrowing, returning, getting a book, and getting all books.
+
+- **Accessible to Librarians and Admins**:
+  - Updating and adding books to the library.
+
+- **Accessible to Admins Only**:
+  - Deleting a book, adding a new role or permission, and changing user roles.
+
+### Implementation Details
+
+- Role and permission-based authorization is achieved using interceptors.
+- JWT authentication is used for user authentication.
+
+### Postman Collection
+
+The repository includes a Postman collection of APIs to test the Book Controller. Feel free to explore other controllers as well.
+
+## Conclusion
+
+Thank you for the opportunity to showcase my skills through this project. I gained valuable experience and am eager to contribute to and grow with Vidyayatan Technologies.
+
+---
+
+Best regards,
+
+Giridharan Sugunaseelan

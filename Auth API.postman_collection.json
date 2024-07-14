@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "f304a2f4-69f2-4374-a96f-025a4f9fdcfa",
+		"name": "Auth API",
+		"description": "Consists Of APIs related to login and signup features",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32115776"
+	},
+	"item": [
+		{
+			"name": "Register API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to register a new user"
+			},
+			"response": []
+		},
+		{
+			"name": "Member Login API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to signin as a Member"
+			},
+			"response": []
+		},
+		{
+			"name": "Librarian Login API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to signin as a Librarian"
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Login API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to signin as a Admin"
+			},
+			"response": []
+		}
+	]
+}

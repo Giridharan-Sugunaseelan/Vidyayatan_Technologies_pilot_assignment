@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "c5b0650a-3c53-4ad3-916b-c5f9c4d2888f",
+		"name": "Books API",
+		"description": "Consists Of APIs that deals with the movement of books in the BookNest Library",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32115776"
+	},
+	"item": [
+		{
+			"name": "Get Book API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to get a book from library. Book will be fetched as the book ID passed as a path variable. This API is accessible for Member, Librarian and Admin."
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Books API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to get all the books from library. This API is accessible for Member, Librarian and Admin."
+			},
+			"response": []
+		},
+		{
+			"name": "Borrow Book API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to borrow a book from library. Once the book is borrowed it won't be available in library. It will be assigned to the user who borrowed till the user returns. This API is accessible for Member, Librarian and Admin."
+			},
+			"response": []
+		},
+		{
+			"name": "Return Book API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to return a book from library. User will return the book via this API. This API is accessible for Member, Librarian and Admin."
+			},
+			"response": []
+		},
+		{
+			"name": "Add Book API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to add a new book to the library. This API is only accessible for Librarian and Admin."
+			},
+			"response": []
+		},
+		{
+			"name": "Update Book API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to update the existing book in the library. This API is only accessible for Librarian and Admin."
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Book API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "API to delete a book from the library. This API is only accessible to Admin."
+			},
+			"response": []
+		}
+	]
+}
